@@ -23,6 +23,24 @@ a{
     text-decoration: none;
 }
 
+h1 {
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin: 16px 0;
+    background: linear-gradient(90deg, #312972 7%, #1a1423 60%);
+    background-clip: text;
+    --webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+
 .container {
     max-width: 1200px;
     margin-inline: auto;
@@ -79,3 +97,20 @@ nav .menu-items btn:hover {
     font-weight: 700;
     font-size: 18px;
 }
+
+/* images */
+img {
+    width: 100%;
+    display: flex;
+}
+
+/* Hero section */
+header {
+    display: fixed;
+    height: 100vh;
+    align-items: center;
+    padding-top: 70px;
+    min-height: 600px;
+    max-height: 800px;
+}
+
