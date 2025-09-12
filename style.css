@@ -157,6 +157,11 @@ header .right img{
 
 /* Langauges and Tools section */
 .tech-stack {
+    z-index: 2;
+    position: relative;
+}
+
+.tech-stack img {
     width: auto;
     height: 32px;
 }
@@ -164,13 +169,11 @@ header .right img{
 .tech-stack .logos {
     display: flex;
     gap: 60px; /* space between logos */
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
     justify-content: center; /* centers horizontally */
     align-items: center; /* centers vertically */
 }
 
-.tech-stack .logos img {
-    object-fit: contain; /* keeps logos from stretching */
-}
 
 .tech-stack .container {
     display: flex;
@@ -181,4 +184,11 @@ header .right img{
     box-shadow: 0 0px 42px -20px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     background: var(--light-color);
+}
+
+/* Latest articles section */
+.latest-articles {
+    background: #f5f5f5;
+    margin: -60px;
+    padding-top: 180px;
 }
